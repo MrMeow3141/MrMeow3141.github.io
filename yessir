@@ -1,3 +1,5 @@
-while(True) {
-  window.location.reload();
+onbeforeunload = () => true;
+
+while(1){
+    location.reload(1);
 }
